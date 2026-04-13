@@ -47,7 +47,7 @@ echo "===================="
 # 2. Clone the repository
 # ------------------------------------------------------------------
 
-WORK_DIR="/workspace"
+WORK_DIR="/usercontent"
 
 # Parse the source URL — extract host and path for token injection
 # Strip any branch ref (fragment after #)
