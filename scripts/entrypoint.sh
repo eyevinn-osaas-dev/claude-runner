@@ -196,6 +196,10 @@ fi
 
 CLAUDE_ARGS=("--print" "--dangerously-skip-permissions")
 
+if [ "${VERBOSE:-}" = "1" ] || [ "${VERBOSE:-}" = "true" ]; then
+  CLAUDE_ARGS+=("--verbose")
+fi
+
 if [ -n "${MODEL}" ]; then
   CLAUDE_ARGS+=("--model" "${MODEL}")
 fi

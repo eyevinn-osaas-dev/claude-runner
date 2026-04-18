@@ -29,6 +29,7 @@ Built for [Eyevinn Open Source Cloud](https://www.osaas.io).
 | `MAX_TURNS` | Maximum number of agentic turns |
 | `ALLOWEDTOOLS` | Comma-separated list of allowed tools |
 | `DISALLOWEDTOOLS` | Comma-separated list of disallowed tools |
+| `VERBOSE` | Set to `1` or `true` to enable verbose logging (tool calls, intermediate turns) |
 | `SUB_PATH` | Subdirectory within the repo to use as working directory |
 | `CONFIG_SVC` | Name of an OSC Application Config Service instance. When set together with `OSC_ACCESS_TOKEN`, environment variables are loaded from the config service before the Claude session starts |
 | `OSC_ACCESS_TOKEN` | Open Source Cloud access token. Enables the OSC MCP server and config service integration |
